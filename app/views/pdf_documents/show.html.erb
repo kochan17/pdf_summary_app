@@ -1,0 +1,9 @@
+<h1>PDF Summary</h1>
+
+<h2>Original Text</h2>
+<p><%= @pdf_document.original_text %></p>
+
+<h2>Summary</h2>
+<p><%= @pdf_document.summary_text %></p>
+
+<%= link_to 'Upload Another PDF', new_pdf_document_path %>
