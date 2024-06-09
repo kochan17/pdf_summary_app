@@ -101,6 +101,9 @@ GEM
     debug (1.9.2)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    docx (0.8.0)
+      nokogiri (~> 1.13, >= 1.13.0)
+      rubyzip (~> 2.0)
     dotenv (3.1.2)
     dotenv-rails (3.1.2)
       dotenv (= 3.1.2)
@@ -286,6 +289,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  docx
   dotenv-rails
   importmap-rails
   jbuilder

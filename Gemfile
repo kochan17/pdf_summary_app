@@ -68,3 +68,4 @@ end
 gem 'pdf-reader'
 gem 'ruby-openai'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'docx'

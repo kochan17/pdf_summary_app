@@ -1,6 +1,6 @@
-<h1>Upload a PDF to Summarize</h1>
+<h1>Upload a PDF or Word to Summarize</h1>
 
-<%= form_with model: @pdf_document, url: pdf_documents_path, local: true, multipart: true do |form| %>
+<%= form_with model: @document, url: documents_path, local: true, multipart: true do |form| %>
   <div>
     <%= form.label :file %>
     <%= form.file_field :file %>
